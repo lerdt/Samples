@@ -73,6 +73,7 @@ public class CloudTransferExtension implements ServiceExtension {
         assetIndex.accept(asset2, dataAddress2);
     }
 
+    @SuppressWarnings("deprecation")
     public void registerContractDefinition(String policyId) {
         var contractDefinition1 = ContractDefinition.Builder.newInstance()
                 .id("1")

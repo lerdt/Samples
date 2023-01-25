@@ -96,6 +96,7 @@ public class FileTransferExtension implements ServiceExtension {
         assetIndex.accept(asset, dataAddress);
     }
 
+    @SuppressWarnings("deprecation")
     private void registerContractDefinition(String uid) {
         var contractDefinition = ContractDefinition.Builder.newInstance()
                 .id("1")
