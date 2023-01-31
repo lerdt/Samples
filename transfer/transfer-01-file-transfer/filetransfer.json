@@ -2,10 +2,10 @@
   "edctype": "dataspaceconnector:datarequest",
   "protocol": "ids-multipart",
   "assetId": "test-document",
-  "contractId": "{agreement ID}",
+  "contractId": "1:2b3ab4b4-c43e-4270-8fc7-034a6897914c",
   "dataDestination": {
     "properties": {
-      "path": "{path to destination file}",
+      "path": "/home/toor/Dev/Samples/test-document-output.txt",
       "keyName": "keyName",
       "type": "File"
     }

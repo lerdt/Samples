@@ -1,0 +1,5 @@
+Hello World!
+
+---------
+
+Your test has been successfully finished! The file was delivered through the EDC-Dataspace.
